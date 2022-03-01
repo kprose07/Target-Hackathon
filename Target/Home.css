@@ -1,4 +1,4 @@
-﻿
+
  body {
     font-family: Tajawal;
  
@@ -133,46 +133,7 @@
     bottom:-50%;
    
 }
-/*
-.uphalf{
-    position: absolute;
-    width: 95%;
-    padding:10px;
-   
 
-}
-.uphalf img {
-        width:100%; 
-        top:60px;
-        position:relative;
-    }
-
-.uphalf p {
-    color: #466365;
-    font-size:50px;
-    position:relative;
-    bottom:25px;
-    left:60px;
-}
-.half {
-    position: absolute;
-    width: 95%;
-}
-.half img {
-    position:relative;
-    width:804px; 
-    top:300px;
-   
- }
-    .half p {
-        color: #466365;
-        font-size: 25px;
-        position: relative;
-        top: 180px;
-        left: 37%;
-    }
-
-    */
 body::-webkit-scrollbar {
     width: .8em;
     border-radius:100px;
