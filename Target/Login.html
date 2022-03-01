@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="styleSheet" href="login.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="home.html">
+            <img src="images/logo.png">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nm">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nm">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="Home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Students.html" class="nav-link">Students</a>
+                </li>
+                <li class="nav-item">
+                    <a href="rewards.html" class="nav-link">Rewards</a>
+                </li>
+               
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link active">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="box">
+        <div class="user">
+            <h3>Username/Email:</h3>
+        </div>
+        <div class="pass">
+            <h3>Password:</h3>
+        </div>
+
+        <div class="i">
+            <div class="if">
+                <form action="includes/login.inc.php" method="post">
+                    <input type="text" name="usermail" placeholder="Username/Email...">
+                    <input type="password" name="pwd" placeholder="Password...">
+                    <button type="submit" name="loginSubmit">Login</button>
+                </form>
+            </div>
+            <form action="includes/logout.inc.php" method="post">
+                <button type="submit" name="logoutSubmit">Logout</button>
+            </form>
+            <a href="su.php">Signup!</a>
+        </div>
+    </div>
+
+    <script src="Home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

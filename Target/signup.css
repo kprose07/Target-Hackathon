@@ -1,0 +1,207 @@
+﻿
+body {
+    font-family: Tajawal;
+    overflow-x: hidden;
+   overflow-y:hidden;
+}
+
+.navbar {
+    background-color: #466365;
+    height: 78px;
+    padding: 3px 2px;
+    position: relative;
+    -webkit-user-select: none;
+
+}
+
+.navbar-nav a {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+    .navbar-nav a:hover {
+        background-color: #D4AC0D;
+        color: #FDEDEC;
+    }
+
+    .navbar-nav a.active {
+        background-color: white;
+        color: #D4AC0D;
+      
+    }
+
+.navbar-toggler {
+    background: #ffffff;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+    .navbar-toggler span {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border: 1px;
+        background: #D4AC0D;
+    }
+
+        .navbar-toggler span + span {
+            margin-top: 4px;
+            width: 22px;
+        }
+
+            .navbar-toggler span + span + span {
+                width: 22px;
+            }
+
+.navbar-collapse a {
+    background: #466365;
+    color: white;
+    text-align: center;
+    width: 100px;
+    float: right;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: .8em;
+    border-radius: 100px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #555;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 100vw;
+    box-shadow: inset 0 0 6px #E6E5FF;
+    outline: 1px solid slategrey;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+    body::-webkit-scrollbar-thumb:hover {
+        background-color: #466365;
+        outline: 1px solid slategrey;
+    }
+
+.box {
+    opacity: 0.8;
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 60px;
+    top: 60%;
+    left: 2%;
+    transform: translateY(-50%);
+    width: 45%;
+    height: 70%;
+    background: #466365;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.if input[name="phone"] {
+    
+    display: grid;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: auto;
+    width: 100%;
+    color: #D4AC0D;
+    margin-top: 3%;
+}
+.if input[name="usermail"] {
+    display: grid;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: none;
+    height:auto;
+    width: 100%;
+    color: #D4AC0D;
+    top: 15%;
+}
+
+.if input[name="pwd"] {
+    display: grid;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: none;
+    height: auto;
+    width: 100%;
+    color: #D4AC0D;
+    top: 15%;
+}
+
+.i {
+    display: grid;
+}
+
+    .i button[name="Submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        color: white;
+        background: #D4AC0D;
+        border-radius: 20px;
+        margin-top: 10%;
+        width: 100%;
+    }
+
+  
+
+    .i button:hover {
+        color: #D4AC0D;
+        background: white;
+    }
+
+.user h3 {
+    margin-top: 5%;
+    font-size: 1.5vw;
+    color: white;
+
+}
+
+.pass h3 {
+  
+    margin-top:5%;
+    font-size: 1.5vw;
+    color: white;
+    
+}
+.phone h3 {
+  
+    margin-top: 3%;
+    font-size:1.5vw;
+    color: white;
+  
+}
+.i a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    bottom: 10%;
+}
+
+    .i a:hover {
+        color: #D4AC0D;
+    }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D4AC0D;
+    opacity: 1; /* Firefox */
+}
+.welc img{
+    position:absolute;
+    width:55%;
+    left:45%;
+    bottom:0%;
+}
