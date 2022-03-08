@@ -6,13 +6,16 @@ body {
     height:200vh;
 }
 
+
 .navbar {
-    background-color: #466365;
+    background-color: #FECB31;
     height: 78px;
     padding: 3px 2px;
     position: relative;
     -webkit-user-select: none;
 }
+
+
 
 .navbar-nav a {
     text-decoration: none;
@@ -22,13 +25,13 @@ body {
 }
 
     .navbar-nav a:hover {
-        background-color: #D4AC0D;
-        color: #FDEDEC;
+        background-color: #F38446;
+        color: #FECB31;
     }
 
     .navbar-nav a.active {
         background-color: white;
-        color: #D4AC0D;
+        color: #FECB31;
     }
 
 .navbar-toggler {
@@ -43,7 +46,7 @@ body {
         width: 22px;
         height: 2px;
         border: 1px;
-        background: #D4AC0D;
+        background: #F38446;
     }
 
         .navbar-toggler span + span {
@@ -56,36 +59,14 @@ body {
             }
 
 .navbar-collapse a {
-    background: #466365;
+    background: #FECB31;
     color: white;
     text-align: center;
     width: 100px;
-    float: right;
+    float: left;
 }
 
 
-
-body::-webkit-scrollbar {
-    width: .8em;
-    border-radius: 100px;
-}
-
-body::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px #555;
-}
-
-body::-webkit-scrollbar-thumb {
-    border-radius: 100vw;
-    box-shadow: inset 0 0 6px #E6E5FF;
-    outline: 1px solid slategrey;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-    body::-webkit-scrollbar-thumb:hover {
-        background-color: #466365;
-        outline: 1px solid slategrey;
-    }
 
     .bottom img{
         position:absolute;
@@ -105,21 +86,21 @@ body::-webkit-scrollbar-thumb {
     transform:rotate(16.69deg);
    
 }
-#heading{
-    position:absolute;
-    color:#D4AC0D;
-    font-family:'Montserrat';
-    font-size:2.5vw;
-    top:17%;
-    left:19%;
+#heading {
+    position: absolute;
+    color: #F38446;
+    font-family: 'Montserrat';
+    font-size: 2.5vw;
+    top: 17%;
+    left: 19%;
 }
 .rectangle {
-    position:absolute;
-    left:13%;
+    position: absolute;
+    left: 13%;
     height: 20%;
     width: 72%;
-    background-color: #466365;
-    bottom:0%;
+    background-color: #FECB31;
+    bottom: 0%;
 }
 .rectangle p{
     color: white;
@@ -140,8 +121,8 @@ body::-webkit-scrollbar-thumb {
 }
 #h {
     font-family: 'Montserrat';
-    font-size:1.5vw;
-    color:#D4AC0D;
+    font-size: 1.5vw;
+    color: #F38446;
 }
 #sbtx {
     
@@ -170,7 +151,7 @@ body::-webkit-scrollbar-thumb {
 #rh {
     font-family: 'Montserrat';
     font-size: 1.5vw;
-    color: #D4AC0D;
+    color: #F38446;
 }
 
 #sbtxr {
@@ -201,7 +182,7 @@ body::-webkit-scrollbar-thumb {
 #ch {
     font-family: 'Montserrat';
     font-size: 1.5vw;
-    color: #D4AC0D;
+    color: #F38446;
 }
 
 #sbtxc {

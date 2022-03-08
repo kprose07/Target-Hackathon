@@ -1,0 +1,112 @@
+﻿
+body {
+    font-family: Tajawal;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar {
+    background-color: #FECB31;
+    height: 78px;
+    padding: 3px 2px;
+    position: relative;
+    -webkit-user-select: none;
+}
+
+
+
+.navbar-nav a {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+    .navbar-nav a:hover {
+        background-color: #F38446;
+        color: #FECB31;
+    }
+
+    .navbar-nav a.active {
+        background-color: white;
+        color: #FECB31;
+    }
+
+.navbar-toggler {
+    background: #ffffff;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+}
+
+    .navbar-toggler span {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border: 1px;
+        background: #F38446;
+    }
+
+        .navbar-toggler span + span {
+            margin-top: 4px;
+            width: 22px;
+        }
+
+            .navbar-toggler span + span + span {
+                width: 22px;
+            }
+
+.navbar-collapse a {
+    background: #FECB31;
+    color: white;
+    text-align: center;
+    width: 100px;
+    float: left;
+}
+
+.contain {
+    position: absolute;
+    top:40%;
+    left: 10%;
+}
+
+#title {
+    position: relative;
+    font-size: 3vw;
+    color: #F38446;
+    top: 30%;
+    left: 6%;
+}
+
+#sub {
+    position: relative;
+    font-size: 1.5vw;
+    color: #466365;
+    top: 40%;
+    left: 6%;
+}
+
+#learn {
+    position: relative;
+    top: 55%;
+    left: 6%;
+    text-decoration: none;
+    color: #18A0FB;
+}
+
+#map1 {
+    position: absolute;
+    top: 30%;
+    left: 45%
+}
+
+#learn:hover {
+    color: darkblue;
+}
+#map_56478be903a147eabf0f942897b2d320 {
+    position: relative;
+    width: 60.0%;
+    height: 65.0%;
+    left: 0.0%;
+    top: 0.0%;
+}

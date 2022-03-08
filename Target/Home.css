@@ -1,142 +1,148 @@
-
- body {
+﻿
+body {
     font-family: Tajawal;
- 
     overflow-x: hidden;
-    overflow-y:scroll;
-  
- height:120vh;
- 
+    overflow-y: scroll;
+    height: 120vh;
 }
 
 .navbar {
-
-    background-color: #466365;
+    background-color: #FECB31;
     height: 78px;
     padding: 3px 2px;
- 
     -webkit-user-select: none;
-
 }
-.navbar-nav a{
+
+.navbar-nav a {
     text-decoration: none;
     color: white;
-    width:100px;
-    text-align:center;
+    width: 100px;
+    text-align: center;
 }
+
     .navbar-nav a:hover {
-        background-color: #D4AC0D;
-        color: #FDEDEC;
+        background-color: #F38446;
+        color: #FECB31;
     }
 
     .navbar-nav a.active {
         background-color: white;
-        color: #D4AC0D;
+        color: #FECB31;
     }
-.navbar-toggler{
+
+.navbar-toggler {
     background: #ffffff;
-    border:none;
-    padding:10px 6px;
-    outline:none;
+    border: none;
+    padding: 10px 6px;
+    outline: none;
 }
+
     .navbar-toggler span {
         display: block;
         width: 22px;
         height: 2px;
         border: 1px;
-        background: #D4AC0D;
+        background: #F38446;
     }
-    .navbar-toggler span + span {
-        margin-top:4px;
-        width: 22px;
-    }
-    .navbar-toggler span + span + span{
-        width: 22px;
-    }
+
+        .navbar-toggler span + span {
+            margin-top: 4px;
+            width: 22px;
+        }
+
+            .navbar-toggler span + span + span {
+                width: 22px;
+            }
+
 .navbar-collapse a {
-    background: #466365;
+    background: #FECB31;
     color: white;
     text-align: center;
     width: 100px;
-    float: right;
+    float: left;
+    
 }
 
 
 .im img {
     position: absolute;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 10.4%;
     height: auto;
     -webkit-user-select: none;
 }
 
 
 .im p {
-    color: #466365;
+    color: white;
     font-size: 5vw;
     position: absolute;
-    height:auto;
+    height: auto;
     margin-top: 15%;
     left: 8%;
 }
+
 .ball img {
     position: absolute;
     width: 20%;
     margin-top: 13.74%;
-    left:74%;
+    left: 74%;
     height: auto;
 }
 
 .im1 img {
     position: absolute;
-    margin-top: 13.01%;
-    right: 91%;
-    transform: rotate(-55deg);
-    width: 13%;
+    margin-top: 7%;
+    right: 92%;
+
+    width: 9%;
     height: auto;
 }
 
 .im2 img {
     position: absolute;
-    width: 95%;
-    margin-top:30%;
-    height:auto;
+    width: 100%;
+    margin-top: 30%;
+    height: auto;
 }
+
 .students img {
     position: absolute;
     width: 17%;
     margin-top: 30.69%;
     height: auto;
-    left:2.8%;
+    left: 2.8%;
 }
+
 .im2 p {
     font-size: 3.5vw;
-    width:60%;
-    color: #466365;
+    width: 60%;
+    color: white;
     position: absolute;
     height: auto;
     margin-top: 30.5%;
     left: 26%;
 }
+
 .pb2 img {
     position: absolute;
-    width: 15%;
-    height:auto;
+    width: 13%;
+    height: auto;
     margin-top: 40%;
     height: auto;
     left: 90%;
 }
-.bottom1 img{
+
+.bottom1 img {
     position: absolute;
     width: 100%;
     height: auto;
-    bottom:-50%;
-   
+    bottom: -40%;
 }
 
 body::-webkit-scrollbar {
     width: .8em;
-    border-radius:100px;
+    border-radius: 100px;
 }
 
 body::-webkit-scrollbar-track {
@@ -144,16 +150,15 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
- 
     border-radius: 100vw;
     box-shadow: inset 0 0 6px #E6E5FF;
-    
     outline: 1px solid slategrey;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
     body::-webkit-scrollbar-thumb:hover {
-        background-color: #466365;
+        background-color: #F38446;
         outline: 1px solid slategrey;
     }
 
@@ -163,18 +168,21 @@ body::-webkit-scrollbar-thumb {
         overflow-x: hidden;
         height: auto;
     }
+
     .bottom1 img {
         position: absolute;
         width: 100%;
         bottom: -30%;
     }
 }
+
 @media only screen and (max-width: 940px) {
     body {
         overflow-y: scroll;
         overflow-x: hidden;
         height: auto;
     }
+
     .bottom1 img {
         position: absolute;
         width: 100%;
@@ -182,6 +190,7 @@ body::-webkit-scrollbar-thumb {
         bottom: -10%;
     }
 }
+
 @media only screen and (max-width: 375px) {
 
     body {
@@ -189,6 +198,7 @@ body::-webkit-scrollbar-thumb {
         overflow-x: hidden;
         height: auto;
     }
+
     .bottom1 img {
         position: absolute;
         width: 100%;
@@ -196,11 +206,12 @@ body::-webkit-scrollbar-thumb {
         bottom: -10%;
     }
 }
+
 @media only screen and (max-width: 250px) {
     body {
         overflow-x: hidden;
         overflow-y: hidden;
-        height:auto;
+        height: auto;
     }
 
     .bottom1 img {
